@@ -1,0 +1,69 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0; /* Ganti URL dengan URL gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+.app-name {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #000; /* Warna teks hitam */
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #000; /* Warna teks hitam */
+}
+
+.btn-start {
+    background-color: #FF3636;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-start:hover {
+    background-color: #c82333;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.feature {
+    width: 45%;
+    padding: 20px;
+    border-radius: 5px;
+    color: #000; /* Warna teks hitam */
+}
+
+.feature h3 {
+    margin-bottom: 15px;
+    color: #000; /* Warna teks hitam */
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
